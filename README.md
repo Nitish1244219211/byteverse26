@@ -7,6 +7,23 @@ Instead of standing in long queues just to get assigned a department, patients c
 
 ---
 
+## 📌 Table of Contents
+
+- [🚨 Problem Statement](#-problem-statement)
+- [🎯 Objective](#-objective)
+- [💡 Solution Overview](#-solution-overview)
+- [⚙️ Key Features](#️-key-features)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🧠 Core Workflow](#-core-workflow)
+- [🗄️ Database Design](#️-database-design)
+- [🧩 Project Structure](#-project-structure)
+- [🔐 Security Approach](#-security-approach)
+- [⚡ Tech Stack](#-tech-stack)
+- [🚀 Installation & Setup](#-installation--setup)
+- [🌱 Future Enhancements](#-future-enhancements)
+- [🏁 Conclusion](#-conclusion)
+- [💬 Tagline](#-tagline)
+
 ## 🚨 Problem Statement
 
 Hospitals, especially in urban areas, face severe **overcrowding at reception and screening counters**.
@@ -262,3 +279,5 @@ Dr Symp transforms the **manual, overcrowded hospital entry process** into a **s
 ## 💬 Tagline
 
 **Dr Symp — Skip the queue. Get the care.**
+
+Made with &#x2764;by Jal-Lads 
