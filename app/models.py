@@ -9,6 +9,7 @@ class patients(db.Model):
     sex=db.Column(db.String(25), nullable=False)
     desc=db.Column(db.String(500), nullable=True)
     date=db.Column(db.DateTime, default=datetime.utcnow)
+    access_token = db.Column(db.String(100), unique=True, nullable=False)
 
     def __repr__(self) -> str:
         return f"{self.sno} - {self.name}"#represent the entries

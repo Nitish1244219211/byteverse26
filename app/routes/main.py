@@ -80,7 +80,7 @@ def book_appointment(token):
     top_diseases = get_top_diseases(symptom_list)
 
     return render_template(
-        "book_appointment.html",
+        "index.html",
         patient=patient,
         top_diseases=top_diseases
     )

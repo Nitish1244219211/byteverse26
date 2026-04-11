@@ -1,0 +1,81 @@
+
+body {
+  font-family: Arial;
+  background-color: #f8fafd;
+  padding: 30px;
+}
+
+#form{
+  border-radius: 25px;
+  background-color: #ffffff;
+
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#suggestions {
+  border: 1px solid #ccc;
+  width: 300px;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+
+.suggestion {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background: #eee;
+}
+
+#selected {
+  margin-top: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background: #ddd;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.tag span {
+  margin-left: 8px;
+  cursor: pointer;
+  color: red;
+}
+
+
+/* forms */
+    
+/* Gender buttons */
+.gender-btn {
+    margin: 8px 4px;
+    padding: 8px 13px;
+    background: white;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .gender-btn:hover {
+    /* background: #7d96bc; */
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+/* Active gender */
+.gender-btn.active {
+    /* background: #0d6efd; */
+    border: 1px solid #000000;
+    color: #000000
+}
