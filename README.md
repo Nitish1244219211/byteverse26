@@ -12,6 +12,7 @@ Instead of standing in long queues just to get assigned a department, patients c
 - [🚨 Problem Statement](#-problem-statement)
 - [🎯 Objective](#-objective)
 - [💡 Solution Overview](#-solution-overview)
+- [&#x2764; Website Link](#-link)
 - [⚙️ Key Features](#️-key-features)
 - [🏗️ System Architecture](#️-system-architecture)
 - [🧠 Core Workflow](#-core-workflow)
@@ -63,6 +64,12 @@ Dr Symp introduces a **pre-hospital digital screening system** where users:
 4. View corresponding departments  
 5. Find hospitals offering those departments  
 6. Download a digital appointment receipt  
+
+--- 
+## &#x2764; Website Link
+Link: 
+https://dr-symp-by-jal-lads-d386d00eda4c.herokuapp.com/ 
+
 
 ---
 
