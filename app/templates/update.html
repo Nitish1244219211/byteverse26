@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}
+    Update
+{% endblock title %}
+
+{% block body %}
+  
+<div class="container">
+      <form class="container mt-5 pt-5" action="/update/{{updateUsingJinga2.sno}}" method="POST">
+        <h2>
+          Update Your Details
+        </h2>
+        <div class="mb-3">
+          <label for="name">Enter Your Name</label>
+          <input type="text" name="name" class="form-control" id="name" value="{{updateUsingJinga2.name}}" required>
+          <div class="form-text">We'll never share your details with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="Symptoms" class="form-label">Symptoms</label>
+        <textarea class="form-control" name="Symptoms" id="Symptoms" rows="3">{{updateUsingJinga2.desc}}
+        </textarea>
+          <div class="form-text">Feel free to share your Symptoms</div>
+      </div>
+        <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+           <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+      
+        <button type="submit" class="btn btn-primary">Update</button>
+      </form>
+    
+    </div>
+
+{% endblock body %}
