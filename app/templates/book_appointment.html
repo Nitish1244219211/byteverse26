@@ -53,8 +53,7 @@
 </div>
 </div>
 <div class="col-md-7 col-lg-6 pt-3 ms-3">
-      <h3>Available Hospitals</h3>
-
+<h3 id="hospital-header" style="display:none;">Available Hospitals</h3>
       <div id="hospital-container" class="mt-3">
       </div>
 </div>
@@ -64,6 +63,8 @@
 <script>
 function loadHospitals(deptId, diseaseName) {
 
+    const header = document.getElementById("hospital-header");
+    header.style.display = "block";
     const container = document.getElementById("hospital-container");
 
     container.innerHTML = `
