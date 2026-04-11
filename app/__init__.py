@@ -10,7 +10,9 @@ def create_app():
 
     # registration of routes
     from .routes.main import main
+    from .routes.api import api
 
     app.register_blueprint(main)
+    app.register_blueprint(api, url_prefix="/api")
 
     return app
