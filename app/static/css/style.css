@@ -9,7 +9,7 @@ body {
 #form{
   border-radius: 25px;
   background-color: #ffffff;
-
+  margin: 5px;
 }
 
 input {
