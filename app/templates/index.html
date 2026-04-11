@@ -42,7 +42,93 @@
 
 <div id="selected"></div>
 
+<script>
+// const symptoms = [
+//   "Headache", "Fever", "Cough", "Fatigue", "Nausea",
+//   "Sore throat", "Back pain", "Dizziness",
+//   "Shortness of breath", "Chest pain",
+//   "Stomach pain", "Joint pain", "Rash",
+//   "Runny nose", "Muscle aches"
+// ];
+const symptoms = {{ symptoms | tojson }};
 
+const search = document.getElementById("search");
+const suggestions = document.getElementById("suggestions");
+const selected = document.getElementById("selected");
+
+let selectedSymptoms = [];
+
+function match(input, word) {
+  return word.toLowerCase().includes(input.toLowerCase());
+}
+
+search.addEventListener("input", () => {
+  const value = search.value;
+  suggestions.innerHTML = "";
+
+  if (!value) return;
+
+  const results = symptoms.filter(s => match(value, s));
+
+  results.forEach(symptom => {
+    const div = document.createElement("div");
+    div.className = "suggestion";
+    div.textContent = symptom;
+
+    div.onclick = () => addTag(symptom);
+
+    suggestions.appendChild(div);
+  });
+});
+
+
+function updateHiddenInput() {
+  document.getElementById("hiddenSymptoms").value = selectedSymptoms.join(", ");
+}
+
+function addTag(symptom) {
+  if (selectedSymptoms.includes(symptom)) return;
+
+  selectedSymptoms.push(symptom);
+
+  const tag = document.createElement("div");
+  tag.className = "tag";
+
+  tag.innerHTML = `
+    ${symptom}
+    <span onclick="removeTag('${symptom}', this)">✖</span>
+  `;
+
+  selected.appendChild(tag);
+
+  updateHiddenInput(); 
+
+  search.value = "";
+  suggestions.innerHTML = "";
+}
+
+function removeTag(symptom, el) {
+  selectedSymptoms = selectedSymptoms.filter(s => s !== symptom);
+  el.parentElement.remove();
+
+  updateHiddenInput(); 
+}
+
+
+// Gender selection
+function selectGender(btn, gender) {
+    selectedGender = gender;
+    document.getElementById("sexInput").value = gender;
+
+    // Remove active from all
+    document.querySelectorAll(".gender-btn").forEach(b => {
+        b.classList.remove("active");
+    });
+
+    // Add active to selected
+    btn.classList.add("active");
+}
+</script>
 
 
 </div>
