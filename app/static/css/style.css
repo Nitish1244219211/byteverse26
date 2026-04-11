@@ -1,8 +1,9 @@
 
 body {
-  font-family: Arial;
+  /* font-family: Arial; */
+  font-family: 'Playfair Display', serif;
   background-color: #f8fafd;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 #form{
@@ -23,6 +24,10 @@ input {
   max-height: 150px;
   overflow-y: auto;
   margin-top: 5px;
+}
+ 
+.nav-link{
+  color: #fff;
 }
 
 .suggestion {
@@ -78,4 +83,14 @@ input {
     /* background: #0d6efd; */
     border: 1px solid #000000;
     color: #000000
+}
+
+.footer{
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        align-items: center;
+        font-size: larger;
+        bottom: 0;
+        position: fixed;
 }

@@ -11,32 +11,44 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="/static/css/style.css" rel="stylesheet">
+    <link href="/static/css/section.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
-  <body>
+  
+  <body >
 <!-- style="background-color: #e3f2fd; -->
-     <nav class="navbar navbar-expand-lg  sticky-top ps-3 mt-1" style="background-color: #e9eef6; border-radius: 20px;" >
-        <a class="navbar-brand" href="/"><b>Dr. Symp</b></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top ps-3" style="background-color: #242e39;">
+  <a class="navbar-brand" href="/" style="color: #fff; font-size:x-large;">
+    <i>Dr.</i><b> Symp</b>
+  </a>
+
+  <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#form">Symptom Checker</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#htw">How It Works</a>
       </li>
-      </ul>
-      
+    </ul>
   </div>
 </nav>
     {% block body %}
         
     {% endblock body %}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+    <div class="footer container-fluid">Made with &#10083; by Jal-Lads</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>  </body>
 </html>
