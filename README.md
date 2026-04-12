@@ -275,9 +275,10 @@ A Link will be generated like below
 ```
  * Running on http://127.0.0.1:5000
 ```
-Visit this link.
-Hurray! Your Website is Live...
+  Visit this link.
+  Hurray! Your Website is Live...
 LOCALLY ;)
+
 ---
 
 ## 🌱 Future Enhancements
