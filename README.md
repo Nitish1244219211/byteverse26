@@ -239,6 +239,10 @@ byteverse26/
 ```
 git clone https://github.com/Nitish1244219211/byteverse26
 ```
+then enter the directory
+```
+cd byteverse26
+```
 ---
 
 ### 2. Install Dependencies
