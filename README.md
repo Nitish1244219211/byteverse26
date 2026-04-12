@@ -252,7 +252,7 @@ pip install flask flask_sqlalchemy reportlab
 ---
 ### 3. Setup Environment
 ```
-python3 -m venv .venv
+python -m venv .venv
 ```
 ---
 ### 4. Activate Environment
