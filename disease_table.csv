@@ -1,0 +1,79 @@
+disease,disease_id
+Influenza (flu),1
+Common cold,2
+Viral fever,3
+Food poisoning,4
+Gastritis,5
+Acid reflux,6
+Sinusitis,7
+Tonsillitis,8
+Conjunctivitis,9
+Heat exhaustion,10
+Dehydration,11
+Migraine,12
+Muscle strain,13
+Allergic rhinitis,14
+Skin allergy,15
+Ear infection,16
+Bronchitis,17
+Mild pneumonia,18
+Urinary irritation,19
+Stress / anxiety,20
+Insomnia,21
+Constipation,22
+Viral rash,23
+Motion sickness,24
+Mild asthma,25
+Seasonal flu,26
+Irritable bowel syndrome,27
+Panic attack,28
+Vitamin deficiency,29
+Eye strain,30
+Sleep deprivation,31
+Gastric bloating,32
+Mild anxiety disorder,33
+Eye infection,34
+Throat infection,35
+Back strain,36
+Mild allergy,37
+Indigestion,38
+Mild migraine,39
+Fungal infection,40
+Allergy,41
+Gerd,42
+Chronic cholestasis,43
+Drug reaction,44
+Peptic ulcer diseae,45
+Aids,46
+Diabetes,47
+Gastroenteritis,48
+Bronchial asthma,49
+Hypertension,50
+Cervical spondylosis,51
+Paralysis (brain hemorrhage),52
+Jaundice,53
+Malaria,54
+Chicken pox,55
+Dengue,56
+Typhoid,57
+Hepatitis a,58
+Hepatitis b,59
+Hepatitis c,60
+Hepatitis d,61
+Hepatitis e,62
+Alcoholic hepatitis,63
+Tuberculosis,64
+Pneumonia,65
+Dimorphic hemmorhoids(piles),66
+Heart attack,67
+Varicose veins,68
+Hypothyroidism,69
+Hyperthyroidism,70
+Hypoglycemia,71
+Osteoarthristis,72
+Arthritis,73
+(vertigo) paroymsal  positional vertigo,74
+Acne,75
+Urinary tract infection,76
+Psoriasis,77
+Impetigo,78
